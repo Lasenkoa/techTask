@@ -12,7 +12,7 @@
                     {{ __("You're logged in!") }}
                 </div>
                 <x-usertable>
-
+                    {{ $users }}
                 </x-usertable>
             </div>
         </div>
